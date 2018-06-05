@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app works!';
+
+  openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+
+  closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
 }

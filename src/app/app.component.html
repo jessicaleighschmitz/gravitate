@@ -1,3 +1,35 @@
-<h1>
-  {{title}}
-</h1>
+<div class="header">
+  <h1>Gravitate</h1>
+  <div class="nav">
+    <div id="nav">
+      <a routerLink="">Home</a>
+      <a routerLink="plans">Plans</a>
+      <a routerLink="contact">Contact</a>
+      <a routerLink="login">Log In</a>
+    </div>
+    <!-- <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#surf" class="surf-nav">surf</a>
+      <a href="#clothing" class="clothing-nav">clothing</a>
+      <a href="#adventure" class="adventure-nav">adventure</a>
+      <a href="#ceramics" class="ceramics-nav">ceramics</a>
+    </div> -->
+    <!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="nav-hamburger">&#9776;</span> -->
+  </div>
+</div>
+<router-outlet></router-outlet>
+<div class="footer">
+  <div class="social">
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-twitter-square"></i>
+    <i class="fab fa-google-plus-square"></i>
+
+  </div>
+  <div class="footer-nav">
+    <a routerLink="">Home</a>
+    <a routerLink="plans">Plans</a>
+    <a routerLink="contact">Contact</a>
+    <a routerLink="login">Log In</a>
+  </div>
+</div>
