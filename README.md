@@ -1,4 +1,28 @@
-# Gravitate
+# Gravitate PDX
+
+## By Jessica Schmitz
+
+# Description
+This is a multi-page website designed for a co-working space. They are equal parts inviting, modern, and funky.
+
+# Research & planning
+Color Scheme:
+* #F9BED6 - light pink
+* #F796BD - text shadow for logo
+* #A1EBE0 - lighter blue
+* #F7EA48 - sun yellow
+* #3CBDE9- azure
+
+Client's adjectives:
+* inclusive
+* funky
+* luxurious
+* comfortable
+* local
+
+# The following image depicts the desired appearance of the application
+
+![sketch application shot](src/assets/sketch-landing.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
