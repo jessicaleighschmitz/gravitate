@@ -107,3 +107,13 @@ h2{
   margin: 20px auto 50px;
 }
 }
+
+@media (max-width: 320px){
+  .inspiration{
+    padding:20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .inspiration-text{
+    margin: 0;
+  }
+}
