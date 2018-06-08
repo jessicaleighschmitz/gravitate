@@ -12,8 +12,8 @@ $background-blue: #E6F2F0;
 
 //base styles
 .container{
-  max-width: 1300px;
-  margin-left: auto;
+  max-width: 1200px;
+  margin: auto;
 }
 .header{
   a{
@@ -45,10 +45,10 @@ $background-blue: #E6F2F0;
 }
 
 .footer{
-  // background-image: url('./../assets/footer.png');
-  // height: 312px;
-  // background-repeat: no-repeat;
-  // background-size: cover;
+  background-image: url('./../assets/footer-1300.png');
+  height: 310px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 i{
   font-size: 2rem;

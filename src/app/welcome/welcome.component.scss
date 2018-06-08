@@ -16,6 +16,11 @@ $link-color: #3CBDE9;
 }
 img.image{
   opacity: .8;
+  max-width: 1200px;
+}
+.inspiration img.image{
+  margin-bottom: 30px;
+  opacity: 1;
 }
 .inspiration{
   border: solid 1px;
@@ -24,7 +29,7 @@ img.image{
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-auto-flow: dense;
   max-width: 90%;
-  margin: 30px auto;
+  margin: 50px auto;
   align-items: center;
 }
 .inspiration-text{
@@ -97,6 +102,18 @@ h2{
 }
 
 //media queries
+@media (max-width: 585px){
+  .community img{
+    display: none;
+  }
+}
+@media(min-width: 500px){
+  .community img{
+    display: block;
+    margin: 20px auto 30px;
+  }
+}
+
 @media (max-width:941px){
 .inspiration img{
   order: -1;
@@ -105,7 +122,7 @@ h2{
 .inspiration-text{
   max-width: 90%;
   margin: 20px auto 50px;
-}
+  }
 }
 
 @media (max-width: 320px){
