@@ -1,3 +1,64 @@
 *{
   margin: 0;
 }
+
+//variables
+$background-blue: #E6F2F0;
+$text-color: #4A4A4A;
+$text-size-small: .875em;
+$text-section-size: 1.750em;
+$link-color: #3CBDE9;
+
+
+//base-styles
+.inspiration{
+  border: solid 1px;
+  background-color: $background-blue;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(417px, 1fr));
+  grid-auto-flow: dense;
+  max-width: 90%;
+  margin: 30px auto;
+  align-items: center;
+}
+.inspiration-text{
+  margin: 50px 0 50px 30px;
+  font-size: $text-size-small;
+  max-width: 350px;;
+}
+.inspiration p.light-weight{
+  font{
+    weight: lighter;
+    size: $text-size-small;
+  }
+  margin-bottom: 8px;
+}
+h2{
+  font-size: $text-section-size;
+  margin-bottom: 8px;
+}
+.inspiration a{
+  text-decoration: none;
+  color: $link-color;
+  font-weight: bold;
+}
+.inspiration p{
+  font-weight: normal;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+.inspiration p.bold{
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+//media queries
+@media (max-width:941px){
+.inspiration img{
+  order: -1;
+  margin: 50px auto 0;
+}
+.inspiration-text{
+  max-width: 90%;
+  margin: 20px auto 50px;
+}
+}

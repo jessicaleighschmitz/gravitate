@@ -1,7 +1,16 @@
-$pink: #F495BC;
-*{
-  margin: 0;
+//mixins
+
+@mixin mQ($arg){
+  @media screen and (max-width: $arg){
+    @content;
+  }
 }
+
+//variables
+$pink: #F495BC;
+$background-blue: #E6F2F0;
+
+//base styles
 .header{
   a{
     color: $pink;
@@ -14,8 +23,11 @@ $pink: #F495BC;
     }
     text-shadow: 0 0 10px rgba(255,255,255,1), 0 0 20px rgba(255,255,255,1), 0 0 30px rgba(255,255,255,1), 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de ;
     color: #fff;
+    @include mQ(600px){
+      font-size: 1.2em;
+    }
+    }
   }
-}
 
 .header{
   display: flex;
