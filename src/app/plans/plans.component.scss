@@ -1,10 +1,78 @@
 *{
   margin: 0;
 }
+.container{
+  max-width: 1300px;
+  margin: auto;
+}
+//variables
+$background-blue: #E6F2F0;
+$text-color: #4A4A4A;
+$text-size-small: .875em;
+$text-section-size: 1.750em;
+$link-color: #3CBDE9;
+$text-light: #A4A3A5;
+
+//base styles
 .plans-banner{
-  background-image: url('./../../assets/venue.jpg');
-  height: 300px;
-  width: 100%;
-  background-size: contain, cover;
-  background-repeat: no-repeat;
+  opacity: .8;
+  margin-bottom: 65px;
+}
+.membership{
+  font-size: .875em;
+  color: $text-color;
+  h2{
+    margin: 0 30px 65px 0;
+  }
+}
+.plans{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(205px, 1fr));
+  grid-auto-flow: dense;
+  margin-bottom: 96px;
+}
+.dedicated-plan, .office-plan, .full-plan, .custom-plan{
+  max-width: 208px;
+  border: solid 1px $text-color;
+  margin: auto;
+  margin-bottom: 30px;
+
+}
+h3, .para-section, .plans p{
+  padding: 10px;
+  line-height: 1.6;
+}
+h3{
+  font-size: 1.5em;
+}
+li{
+  line-height: 1.6;
+}
+li:last-child{
+  padding-bottom: 8px;
+}
+.light{
+  color: $text-light;
+}
+.amenities-box{
+  background-color: $background-blue;
+  border: solid 1px $text-color;
+  margin-bottom: 96px;
+}
+.amenities{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-auto-flow: dense;
+  padding: 20px;
+}
+.wifi, .printer, .cafe, .supplies, .social-professional, .bicycle, .craft, .yoga{
+  padding: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+.amenities p{
+  padding: 8px;
+}
+.amenities-box h3{
+  margin: 30px 0 0 30px;
 }

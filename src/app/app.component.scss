@@ -17,6 +17,8 @@ $hover-color: #3CBDE9;
   margin: auto;
 }
 .header{
+  border-bottom: solid 2px $pink;
+  margin: 0 30px 40px;
   a{
     color: $pink;
     text-decoration: none;
