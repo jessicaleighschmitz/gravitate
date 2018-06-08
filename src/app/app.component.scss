@@ -1,9 +1,23 @@
+h1{
+  font: {
+    family: 'Lobster', cursive;
+    size: 3em;
+  }
+  text-shadow: 0 0 10px rgba(255,255,255,1), 0 0 20px rgba(255,255,255,1), 0 0 30px rgba(255,255,255,1), 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de ;
+  color: #fff;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .footer{
   background-image: url('./../assets/footer.png');
   height: 312px;
   background-repeat: no-repeat;
   background-size: contain, cover;
-  width: 100%;
 }
 i{
   font-size: 2rem;
