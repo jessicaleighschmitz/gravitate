@@ -1,10 +1,20 @@
-h1{
-  font: {
-    family: 'Lobster', cursive;
-    size: 3em;
+$pink: #F495BC;
+*{
+  margin: 0;
+}
+.header{
+  a{
+    color: $pink;
+    text-decoration: none;
   }
-  text-shadow: 0 0 10px rgba(255,255,255,1), 0 0 20px rgba(255,255,255,1), 0 0 30px rgba(255,255,255,1), 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de ;
-  color: #fff;
+  h1{
+    font: {
+      family: helvetica;
+      size: 3em;
+    }
+    text-shadow: 0 0 10px rgba(255,255,255,1), 0 0 20px rgba(255,255,255,1), 0 0 30px rgba(255,255,255,1), 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de ;
+    color: #fff;
+  }
 }
 
 .header{
@@ -14,10 +24,10 @@ h1{
 }
 
 .footer{
-  background-image: url('./../assets/footer.png');
-  height: 312px;
-  background-repeat: no-repeat;
-  background-size: contain, cover;
+  // background-image: url('./../assets/footer.png');
+  // height: 312px;
+  // background-repeat: no-repeat;
+  // background-size: cover;
 }
 i{
   font-size: 2rem;
