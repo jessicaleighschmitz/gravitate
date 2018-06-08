@@ -11,16 +11,25 @@ $pink: #F495BC;
 $background-blue: #E6F2F0;
 
 //base styles
+.container{
+  max-width: 1300px;
+  margin-left: auto;
+}
 .header{
   a{
     color: $pink;
     text-decoration: none;
+    margin-left: 10px;
+  }
+  .nav{
+    margin-right: 30px;
   }
   h1{
     font: {
       family: helvetica;
       size: 3em;
     }
+    margin-left: 30px;
     text-shadow: 0 0 10px rgba(255,255,255,1), 0 0 20px rgba(255,255,255,1), 0 0 30px rgba(255,255,255,1), 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de ;
     color: #fff;
     @include mQ(600px){
