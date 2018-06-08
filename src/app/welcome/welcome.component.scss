@@ -100,9 +100,19 @@ h2{
 .employees-flex{
   display: flex;
 }
+.brands{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px auto;
+}
+.brands img{
+  padding: 20px;
+  opacity: .8;
+}
 
 //media queries
-@media (max-width: 585px){
+@media (max-width: 499px){
   .community img{
     display: none;
   }
@@ -111,6 +121,9 @@ h2{
   .community img{
     display: block;
     margin: 20px auto 30px;
+  }
+  .brands img{
+    padding: 20px 40px;
   }
 }
 
@@ -122,6 +135,9 @@ h2{
 .inspiration-text{
   max-width: 90%;
   margin: 20px auto 50px;
+  }
+  .brands img{
+    padding: 30px 50px;
   }
 }
 
