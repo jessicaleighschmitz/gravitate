@@ -5,6 +5,8 @@
 # Description
 This is a multi-page website designed for a co-working space. They are equal parts inviting, modern, and funky.
 
+View this site live at: https://jessicaleighschmitz.github.io/gravitate/
+
 The following image depicts the desired appearance of the application
 
 ![sketch application shot](src/assets/sketch-landing.png)
