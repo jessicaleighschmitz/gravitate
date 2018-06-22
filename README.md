@@ -5,6 +5,10 @@
 # Description
 This is a multi-page website designed for a co-working space. They are equal parts inviting, modern, and funky.
 
+The following image depicts the desired appearance of the application
+
+![sketch application shot](src/assets/sketch-landing.png)
+
 # Research & Planning
 Color Scheme:
 * #F9BED6 - light pink
@@ -19,10 +23,6 @@ Client's adjectives:
 * luxurious
 * comfortable
 * local
-
-# The following image depicts the desired appearance of the application
-
-![sketch application shot](src/assets/sketch-landing.png)
 
 # Technologies Used
 
